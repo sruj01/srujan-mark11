@@ -68,6 +68,7 @@ h1{
 .footer{
   background-color: var(--primary-color);
   padding: 0.5rem;
+  padding-top: 0.8rem;
   border-radius: 1rem;
   margin-left: 10rem;
   margin-right: 10rem;
