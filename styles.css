@@ -11,6 +11,11 @@ body{
 h1{
  color: var(--tertiary-color);
 }
+#logo{
+  font-weight: bolder;
+  float: left;
+  display: block;
+}
 .container{
   max-width: 1000px;
   margin: auto;
@@ -32,11 +37,23 @@ h1{
   padding: 0rem 0.5rem 0rem 0.5rem;
   float: right;
 }
+.nav-link-style{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 1rem;
+}
 .white-center{
   background-color: white;
   border-radius: 0.5rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+hr{
+  max-width: 700px;
+}
+.label-style{
+  font-weight: bolder;
 }
 #date-of-birth{
   max-width: 600px;
@@ -83,7 +100,7 @@ h1{
   text-decoration: none;
   color: black;
   font-size: 16px;
-  padding: 1.5rem;
+  padding: 1.8rem;
 }
 .footer ul{
    padding-inline-start: 0;
