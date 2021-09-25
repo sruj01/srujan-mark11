@@ -20,7 +20,7 @@ function checkBirthDateIsLucky(){
     compareValues(sum, luckyNumber.value)
   }
   else{
-    outputBox.innerText = "Please Enter Both the Fields";
+    outputBox.innerText = "Please Fill Both the Fields";
   }
 }
 
